@@ -5,7 +5,7 @@
 }
 
 .header-cont {
-    background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.349) 0%, rgba(150, 230, 161, 0.603) 100%), url('../img/lago.jpg');
+    background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.349) 0%, rgba(150, 230, 161, 0.603) 100%), url('../img/paisaje.jpg');
     position: relative;
     width: 100%;
     height: 540px;
