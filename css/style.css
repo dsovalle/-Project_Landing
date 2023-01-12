@@ -19,6 +19,7 @@
 .textos-header {
     font-size: 24px;
     height: 290px;
+    margin-top: 50px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -41,7 +42,7 @@
     justify-content: center;
     width: 100%;
     align-items: center;
-    top: -42px;
+    top: -22px;
 }
 
 ul {
@@ -69,7 +70,7 @@ a {
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .info-emp img {
@@ -95,7 +96,7 @@ a {
 .title-barcard {
     text-align: center;
     border-bottom: 1px solid green;
-    padding: 20px;
+    padding: 40px;
 }
 
 .cont-card {
@@ -112,7 +113,7 @@ a {
     width: 400px;
     height: 550px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     padding: 20px 25px;
     border-radius: 10px;
@@ -301,7 +302,7 @@ a {
 
     .textos-header {
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .cont-card {
@@ -370,6 +371,10 @@ a {
 
     a {
         padding: 4px;
+    }
+
+    .title-barcard {
+        margin: 30px 0;
     }
 
     .cont-card {
@@ -460,6 +465,12 @@ a {
 
     .title-barcard {
         padding: 15px;
+    }
+
+    .titulo-galeria {
+        margin: 25px 0;
+        margin-top: -20px;
+        padding: 10px 0;
     }
 
     .galeria-subcont img {
