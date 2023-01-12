@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-cont {
+    background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.349) 0%, rgba(150, 230, 161, 0.603) 100%), url('../img/lago.jpg');
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.textos-header {
+    font-size: 24px;
+    height: 290px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ola {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+/* Menú */
+
+.menu {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    top: -42px;
+}
+
+ul {
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+/* Información sobre nosotros */
+
+.info-emp {
+    width: 90%;
+    height: 210px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 0 80px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.info-emp img {
+    width: 48%;
+}
+
+.texto-emp {
+    width: 40%;
+}
+
+.texto-emp h2 {
+    text-align: center;
+    color: black;
+}
+
+.texto-emp p {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+/* Cards */
+
+.title-barcard {
+    text-align: center;
+    border-bottom: 1px solid green;
+    padding: 20px;
+}
+
+.cont-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgba(0, 128, 0, 0.753);
+    color: white;
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.card_img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.card__title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.card__texto {
+    color: white;
+}
+
+.card__value {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card__value p {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.card-btn {
+    display: block;
+    background-color: white;
+    color: #15273F;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Viajes */
+
+.title-tipbar {
+    text-align: center;
+    border-bottom: 1px solid green;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.viajes-bar {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tipo__viajes {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip--viajes--1 {
+    border-color: #94D82D;
+}
+
+.tip--viajes--2 {
+    border-color: #048A0D;
+}
+
+.img-viajes {
+    width: 88px;
+    height: 88px;
+}
+
+/* Viajes info */
+
+.viajes-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.viajes__texto {
+    text-align: center;
+    width: 160px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.texto--1 {
+    color: #94D82D;
+}
+
+.texto--2 {
+    color: #048A0D;
+}
+
+/* Galería */
+
+.galeria {
+    width: 100%;
+}
+
+.titulo-galeria {
+    text-align: center;
+    margin: 25px 0;
+    border-bottom: 1px solid green;
+    padding: 20px 0;
+}
+
+.cont-galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-subcont {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galeria-subcont img {
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Footer */
+
+.footer-svg {
+    width: 100%;
+}
+
+.footer-info {
+    background-color: rgba(0, 128, 0, 0.753);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 202px;
+}
+
+.footer-title {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.footer-title::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    margin-left: -2%;
+    margin-top: 33px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        font-size: 13px;
+    }
+
+    a {
+        padding: 10px;
+    }
+
+    .textos-header {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .cont-card {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .card {
+        width: 40%;
+        margin-top: 10px;
+        height: 600px;
+    }
+
+    .info-emp {
+        margin-top: 70px;
+        height: 140px;
+    }
+
+    .info-emp img {
+        width: 55%;
+    }
+
+    .texto-emp {
+        width: 40%;
+    }
+
+    .texto-emp h2 {
+        text-align: center;
+        color: black;
+    }
+
+    .texto-emp p {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .title-barcard {
+        padding: 15px;
+    }
+
+    .titulo-galeria {
+        margin: 20px 0;
+    }
+
+    .galeria-subcont {
+        width: 90%;
+    }
+
+    .galeria-subcont img {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .textos-header {
+        font-size: 18px;
+    }
+
+    .menu {
+        font-size: 8px;
+    }
+
+    a {
+        padding: 4px;
+    }
+
+    .cont-card {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 10px;
+        height: 570px;
+    }
+
+    .viajes-bar {
+        width: 90%;
+        height: auto;
+        position: relative;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .tipo__viajes {
+        margin: 20px 0;
+    }
+
+    .viajes-info {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: -200px;
+    }
+
+    .viajes__texto {
+        text-align: center;
+        width: 110px;
+        height: auto;
+        font-size: 14px;
+        margin: 60px 0;
+        box-sizing: border-box;
+    }
+
+    .footer-info {
+        font-size: 13px;
+        color: white;
+        height: 190px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .footer-title::before {
+        content: "";
+        position: absolute;
+        width: 210px;
+        height: 1px;
+        background-color: black;
+        margin-left: -2%;
+        margin-top: 29px;
+    }
+
+    .info-emp {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        height: 320px;
+    }
+
+    .info-emp img {
+        width: 100%;
+    }
+
+    .texto-emp {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .texto-emp h2 {
+        text-align: center;
+        color: black;
+    }
+
+    .texto-emp p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .title-barcard {
+        padding: 15px;
+    }
+
+    .galeria-subcont img {
+        width: 100%;
+    }
+}
