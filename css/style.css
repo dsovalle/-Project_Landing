@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+/* Cabecera */
 
 .header-cont {
-    background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.349) 0%, rgba(150, 230, 161, 0.603) 100%), url('../img/paisaje.jpg');
+    /* background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.349) 0%, rgba(150, 230, 161, 0.603) 100%), url('../img/paisaje.jpg'); */
+    background-image: linear-gradient(120deg, rgba(213, 252, 121, 0.158) 0%, rgba(150, 230, 161, 0.315) 100%), url('../img/paisaje.jpg');
     position: relative;
     width: 100%;
     height: 540px;
@@ -34,6 +37,18 @@
     left: 0;
 }
 
+.form-cont::before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgba(0, 0, 0, .5);
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+    border-left: 2px solid rgba(0, 0, 0, .5);
+    border-right: 2px solid rgba(0, 0, 0, .5);
+    width: 147.5px;
+    height: 40px;
+    margin-top: 8px;
+}
+
 /* Menú */
 
 .menu {
@@ -56,6 +71,27 @@ a {
     text-decoration: none;
     padding: 20px;
     color: black;
+}
+
+/* Barra lateral */
+
+.bar-lateral {
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    margin-left: 91.4%;
+}
+
+.bar-lateral button {    
+    background-color: rgba(66, 226, 119, 0.267);
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: .5px solid green;
+    font-weight: bold;
 }
 
 /* Información sobre nosotros */
@@ -357,6 +393,15 @@ a {
         width: 40%;
     }
 
+    .bar-lateral {
+        margin-left: 87.1%;
+        margin-top: -100px;
+    }
+    
+    .bar-lateral button {    
+        margin-top: 14px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -475,5 +520,23 @@ a {
 
     .galeria-subcont img {
         width: 100%;
+    }
+
+    .bar-lateral {
+        margin-left: 81.9%;
+        margin-top: -62px;
+    }
+    
+    .bar-lateral button {    
+        margin-top: 14px;
+        font-size: 8px;
+        width: 100%;
+        height: 20px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }    
+
+    .form-cont {
+        font-size: 13px;
     }
 }
