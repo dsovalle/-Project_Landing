@@ -534,14 +534,9 @@ a {
         margin-top: -62px;
     }
     
-    .bar-lateral button {    
-        margin-top: 14px;
-        font-size: 8px;
-        width: 100%;
-        height: 20px;
-        margin-top: 5px;
-        border-radius: 10px;
-    }    
+    .bar-lateral {
+        margin-left: 72.4%;
+    }  
 
     .form-cont {
         font-size: 13px;
