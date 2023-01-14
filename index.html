@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PW36V9ESW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4PW36V9ESW');
+    </script>
     <title>Landing</title>
 </head>
 
@@ -42,7 +51,9 @@
     </nav>
 
     <aside class="bar-lateral">
-        <button><a href="tel:+573015203669">Llamar</a></button>
+        <!-- Reemplazar lo que se encuentra dentro de las comillas simples y agregar el número con su indicativo -->
+        <!-- Ejemplo: +571234567890 -->
+        <button><a href="tel:'Indicativo más número'">Llamar</a></button>
         <button onclick="openWhatsApp()"><a href="#">Escribenos</a></button>
     </aside>
 
