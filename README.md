@@ -1,3 +1,6 @@
+Prueba Técnica - Landing Page
+Este Landing Page fue desarrollado como una prueba técnica y no tiene ningún propósito comercial.
+
 Diseño atractivo e innovador:
 
 El siguiente Landing se desarrolla con un diseño atractivo e innovador, tomando como inspiración la página web de la empresa ViajesChe. La página de aterrizaje brinda la oportunidad de explorar los productos de la empresa de manera clara y sencilla, así como también proporciona información de contacto y un formulario de contacto conectado al CMR de Kommo. Además, el landing está optimizado para su visualización en dispositivos móviles y tabletas.
@@ -14,3 +17,5 @@ Barra lateral.
 Formulario.
 Hoja de estilo.
 Archivo JavaScript.
+
+Este proyecto es únicamente una demostración de habilidades técnicas y no se destina a fines comerciales ni a la distribución pública. Las imágenes utilizadas en este Landing Page pueden estar sujetas a derechos de autor, pero se han empleado con fines exclusivamente de prueba y desarrollo.
